@@ -1,14 +1,14 @@
 ## 01-
- select nome,
- idade 
- from aluno 
- order by idade;
+    select nome,
+    idade 
+    from aluno 
+    order by idade;
 
 ## 02-
- select idaluno,
- nome 
- from aluno
- order by nome DESC;
+    select idaluno,
+    nome 
+    from aluno
+    order by nome DESC;
 
 ## 03- 
     select * 
@@ -21,7 +21,7 @@
     order by sexo, nome;
 
 ## 05-
- update aluno set idade = 20  where nome ='jose';
+    update aluno set idade = 20  where nome ='jose';
 
 ## 06-
  update aluno set idade = 21 where nome in ('tadeu','cesar',marisa'); 
