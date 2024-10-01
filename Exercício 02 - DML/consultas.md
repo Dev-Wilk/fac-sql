@@ -1,12 +1,12 @@
 ## 01-
  select nome,
-        idade 
+ idade 
  from aluno 
  order by idade;
 
 ## 02-
  select idaluno,
-        nome 
+ nome 
  from aluno
  order by nome DESC;
 
