@@ -1,0 +1,18 @@
+Passo a Passo para resolver o problema
+
+Questões
+ - Consulta de saldo
+	- Tem que somar todos os credito e subtrai de todos os debitos 
+	- (se colocar o débito negativo SUM pode resolver)
+	- Garantir que todo débito entre como negativo
+	- Calcular o sado para poupanca e conta-corrente
+	- no caso de conta-corrente tem limite de crédito 
+	- então pode ter dois saldos (saldo, e saldo com limite)
+ - Procedure para movimentação (Saque e Deposito)
+	- pedir operacao, conta e valor
+	- para deposito basta incluir movimentação
+	- para saque deve ver o saldo e o limite caso seja conta-corrente
+ - Procedure para transferencia
+	- deve-se verificar se existe saldo na conta de origem antes do deposito 
+- Consulta extrato
+	
